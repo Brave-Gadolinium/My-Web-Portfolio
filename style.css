@@ -356,6 +356,7 @@ a.post_me:hover {
     color: #2c0483d9;
     font-size: 20px;
     font-weight: 200;
+    text-align: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -446,7 +447,7 @@ a.post_me:hover {
 .skills {
     color: white;
     width: 583px;
-    height: 921px;
+    height: 811px;
     margin: 0 auto;
     padding: 0;
     text-align: center;
@@ -484,4 +485,76 @@ a.post_me:hover {
 
 .img-tech-list {
     margin-right: 20px;
+}
+
+/* Contacts */
+
+.kotacts-and-start {
+    display: grid;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p.elem-kotacts {
+    width: 138px;
+    height: 30px;
+    background-color: #7a4ae234;
+    color: #7a4ae2f0;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+p.elem-start {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.info-postMe {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.info-postMe-elem1 {
+    display: inline-block;
+    margin-right: 140px;
+    padding-top: 50px;
+}
+
+.info-postMe-elem2 {
+    display: inline-block;
+}
+
+.WhatsappLogo-postME {
+    background-color: #7a4ae221;
+    color: #7a4ae29c;
+    width: 230px;
+    height: 60px;
+    text-align: inherit;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 16px;
+    border: solid 1px;
+}
+
+.footer-main {
+    width: 100%;
+    height: 88px;
+    background-color: #7a4ae222;
+    text-align: center;
 }
